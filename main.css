@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --main-nav-bg: #131921;
+    --sub-nav-bg: #232f3e;
+}
+body{
+    font-size: 10px;
+    font-family: "Lato";
+    background: #cdcdcd;
+}
+.logo{
+    width: 100px;
+}
+.logo img{
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background: var(--main-nav-bg);
+    color: aliceblue;
+    justify-content: space-between;
+    padding: 15px 17px;
+     
+    gap: 20px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.del{
+    color: #898989;
+    font-size: 12px;
+    font-weight: 400;
+}
+.search{
+    display: flex;
+    background: rgb(210, 210, 47);
+    width: 700px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.select-search{
+    background: #f4f1f1;
+    outline: none;
+    border: none;
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.search-input{
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    padding-left: 10px;
+}
+.search-icon{
+    color: #131921;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.orders p ,.details p{
+    font-size: 13px;
+}
+.orders .sub-order h1,.details .account h1{
+    font-size: 13px;
+    font-weight: 700;
+}
+.country{
+    height: 20px;
+    width: 70px;
+    display: flex;
+    gap: 5px;
+}
+.country img{
+    width: 50%;
+}
+.country p{
+    display: flex;
+    align-items: end;
+    gap: 5px;
+}
+.cart i{
+    font-size: 35px;
+}
+.cart{
+    position: relative;
+    display: flex;
+    align-items: end;
+}
+
+.cart span{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    color: orangered;
+    font-weight: 600;
+    font-size: 15px;
+}
+.cart p{
+    font-weight: 700;
+}
+.categories{
+    background: var(--sub-nav-bg);
+    color: white;
+    padding: 10px;
+
+}
+.categories ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.categories ul li{
+    font-size: 15px;
+    font-weight: normal;
+    display: flex;
+    gap: 5px;
+    align-items: flex-end;
+}
+.hero-section{
+    height: 85.6vh;
+    background: url(./imageam/hero_image.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.card{
+    background: white;
+    width: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sub-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.image-box{
+    width: 100px;
+    height: 100px;
+}
+.image-box img{
+    width: 100%;
+    height: 100%;
+}
+.card-container{
+    padding: 30px;
+}
+.card{
+   width: 230px;
+}
+.card a{
+    text-decoration: none;
+    color: #007185;
+}
+.card-sub{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    row-gap: 30px;
+}
+.card p{
+    color: gray;
+    font-size: 12px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+} 
+.back{
+    background: #37475a;
+    padding: 15px;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+}
+.back a{
+    color: white;
+    text-decoration: none;
+}
+.bottom-foot{
+    background: #232f3e;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 50px 150px;
+    align-items: start;
+    justify-content: center;
+}
+.bottom-foot h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;    
+}
+.bottom-foot ul{
+    font-size: 15px;
+    color: aquamarine;
+    list-style: none;
+}
+.footer-links{
+    display: grid;;
+    gap: 25px;
+}
+.bottom-foot li{
+    display: flex;
+    margin-top: 15px;
+}
